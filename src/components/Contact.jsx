@@ -24,16 +24,19 @@ const Contact = () => {
             <div className='py-10 mx-auto text-white h-auto flex items-center justify-center'>
                 <div className='flex sm:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto'>
 
-                    <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 0.5, delay: 3 }}>
-                        <form className='flex flex-col gap-6 px-10 pt-10 pb-8 bg-black border-2 border-[#391ca3] rounded-xl'>
+                    <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 1.5, delay: 2.3 }}>
+                        <form action='https://getform.io/f/raeqddja' method='POST' className='flex flex-col gap-6 px-10 pt-10 pb-8 bg-black border-2 border-[#391ca3] rounded-xl'>
                             <h3 className='text-4xl primary-color'>Contact Me</h3>
                             <p className='text-white'>
                                 Let's connect on LinkedIn or send me an email
                             </p>
                             <div className='grid grid-cols-1 gap-6'>
-                                <input className='flex h-[48px] rounded-md border border-white/10 focus:border-[#391ca3] font-light bg-[#0f0f0f] px-4 py-5 text-base placeholder: text-white/60 outline-none' type='firstname' placeholder='First Name'></input>
-                                <input className='flex h-[48px] rounded-md border border-white/10 focus:border-[#391ca3] font-light bg-[#0f0f0f] px-4 py-5 text-base placeholder: text-white/60 outline-none' type='lastname' placeholder='Last Name'></input>
-                                <input className='flex h-[48px] rounded-md border border-white/10 focus:border-[#391ca3] font-light bg-[#0f0f0f] px-4 py-5 text-base placeholder: text-white/60 outline-none' type='email' placeholder='Email Address'></input>
+                                <input className='flex h-[48px] rounded-md border border-white/10 focus:border-[#391ca3] font-light bg-[#0f0f0f] px-4 py-5 text-base placeholder: text-white/60 outline-none' name='full name' type='fullname' placeholder='Full Name'></input>
+                                <input className='flex h-[48px] rounded-md border border-white/10 focus:border-[#391ca3] font-light bg-[#0f0f0f] px-4 py-5 text-base placeholder: text-white/60 outline-none' name='emailaddress' type='email' placeholder='Email Address'></input>
+                                <textarea name='message'
+                                    className='flex h-[150px] rounded-md border border-white/10 focus:border-[#391ca3] font-light bg-[#0f0f0f] px-4 py-5 text-base placeholder:text-white/60 outline-none'
+                                    placeholder='Your Message'
+                                ></textarea>
                             </div>
                             <div className='flex justify-center'>
                                 <button className='bg-primary-color rounded-sm p-2'>
@@ -44,7 +47,7 @@ const Contact = () => {
                         </form>
                     </motion.div>
 
-                    <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: 100, opacity: 0 }} transition={{ duration: 0.5, delay: 3 }}>
+                    <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: 100, opacity: 0 }} transition={{ duration: 1.5, delay: 2.3 }}>
                         <div className='p-2'>
                             <div className='my-2'>
                                 <ul className='flex flex-col gap-10'>
@@ -66,7 +69,7 @@ const Contact = () => {
                 </div>
 
             </div>
-            <motion.div whileInView={{ opacity: 1, y: 0 }} initial={{ y: 100, opacity: 0 }} transition={{ duration: 0.5, delay: 1 }} className='flex justify-center py-8'>
+            <motion.div whileInView={{ opacity: 1, y: 0 }} initial={{ y: 100, opacity: 0 }} transition={{ duration: 1.5, delay: 2.5 }} className='flex justify-center py-8'>
                 <p className='text-xl text-white font-semibold'>Thanks for visiting!</p>
             </motion.div>
         </div>

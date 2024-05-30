@@ -14,20 +14,20 @@ const Projects = () => {
             <div className='mx-auto px-4 md:px-8'>
                 <div className='mb-4 flex items-center justify-between gap-8'>
                     <div className='flex flex-col gap-4'>
-                        <motion.h2 whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 0.5, delay: 2 }} className='mr-2 text-3xl lg:text-4xl primary-color'>
+                        <motion.h2 whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 1.5, delay: 1.9 }} className='mr-2 text-3xl lg:text-4xl primary-color'>
                             My Projects
                         </motion.h2>
-                        <motion.p whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 0.5, delay: 2 }} className='mr-2 pb-4 text-white'>
+                        <motion.p whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 1.5, delay: 1.9 }} className='mr-2 pb-4 text-white'>
                             These are my latest projects.
                         </motion.p>
                     </div>
                 </div>
                 <div>
                     <div className='mb-8 flex-wrap lg:justify-center flex sm:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto'>
-                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 0.5, delay: 3 }} className='w-full lg:w-1/4 '>
+                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 1.5, delay: 2.1 }} className='w-full lg:w-1/4 '>
                             <img src={Accom} alt='' className='mb-6 rounded' />
                         </motion.div>
-                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: 100, opacity: 0 }} transition={{ duration: 0.5, delay: 3 }} className='w-full max-w-xl'>
+                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: 100, opacity: 0 }} transition={{ duration: 1.5, delay: 2.1 }} className='w-full max-w-xl'>
                             <h6 className='mb-2 font-semibold text-white'>UWE Accomodation System</h6>
                             <p className='mb-4 text-neutral-400'>Created a university accomodation system that allows users to manage the rooms within UWE accomodation buildings based on their availability, cleaning status, etc.</p>
                             <ul className='rounded pr-2 py-1 text-sm font-medium flex'>
@@ -37,10 +37,10 @@ const Projects = () => {
                         </motion.div>
                     </div>
                     <div className='mb-8 flex sm:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto flex-wrap lg:justify-center'>
-                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 0.5, delay: 3 }} className='w-full lg:w-1/4 '>
+                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 1.5, delay: 2.1 }} className='w-full lg:w-1/4 '>
                             <img src={Email} alt='' className='mb-6 rounded' />
                         </motion.div>
-                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: 100, opacity: 0 }} transition={{ duration: 0.5, delay: 3 }} className='w-full max-w-xl'>
+                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: 100, opacity: 0 }} transition={{ duration: 1.5, delay: 2.1 }} className='w-full max-w-xl'>
                             <h6 className='mb-2 font-semibold text-white'>UWE ITS Help Service</h6>
                             <p className='mb-4 text-neutral-400'>Built a Help Service comprised of two webpages, one as a email automation service utilising a SendGrid Mail API and the other as a FAQ/Q&A page. The goal in creating this was to reduce email traffic for UWE ITS and improve students means of self-service</p>
                             <ul className='rounded pr-2 py-1 text-sm font-medium flex'>
@@ -53,10 +53,10 @@ const Projects = () => {
                         </motion.div>
                     </div>
                     <div className='mb-8 flex sm:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto flex-wrap lg:justify-center'>
-                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 0.5, delay: 3 }} className='w-full lg:w-1/4 '>
+                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 1.5, delay: 2.1 }} className='w-full lg:w-1/4 '>
                             <img src={Portfolio} alt='' className='mb-6 rounded' />
                         </motion.div>
-                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: 100, opacity: 0 }} transition={{ duration: 0.5, delay: 3 }} className='w-full max-w-xl'>
+                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: 100, opacity: 0 }} transition={{ duration: 1.5, delay: 2.1 }} className='w-full max-w-xl'>
                             <h6 className='mb-2 font-semibold text-white'>Portfolio Website</h6>
                             <p className='mb-4 text-neutral-400'>Created a Portfolio page as a means to interactively display my experience and education to potential employers.</p>
                             <ul className='rounded pr-2 py-1 text-sm font-medium flex'>
@@ -67,10 +67,10 @@ const Projects = () => {
                         </motion.div>
                     </div>
                     <div className='mb-8 flex sm:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto flex-wrap lg:justify-center'>
-                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 0.5, delay: 3 }} className='w-full lg:w-1/4'>
+                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 1.5, delay: 2.1 }} className='w-full lg:w-1/4'>
                             <img src={Twin} alt='' className='mb-6 rounded' />
                         </motion.div>
-                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: 100, opacity: 0 }} transition={{ duration: 0.5, delay: 3 }} className='w-full max-w-xl '>
+                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: 100, opacity: 0 }} transition={{ duration: 1.5, delay: 2.1 }} className='w-full max-w-xl '>
                             <h6 className='mb-2 font-semibold text-white'>Twin Cities Web Application</h6>
                             <p className='mb-4 text-neutral-400'>Collaboratively developed a Twin Cities web app providing information on London and Paris. Utilised APIs for weather forecasts, Google Maps for points of interest, and an RSS feed for daily local news updates.</p>
                             <ul className='rounded pr-2 py-1 text-sm font-medium flex'>

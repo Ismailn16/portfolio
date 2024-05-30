@@ -11,11 +11,12 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <About id='About' />
-      <Tech id='Tech' />
-      <Education id='Education' />
-      <Projects id='Projects' />
-      <Contact id='Contact' />
+      <About />
+      <Tech />
+      <Education />
+      <Projects />
+      <Contact />
+
     </div>
   );
 }
