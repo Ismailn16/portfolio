@@ -24,7 +24,7 @@ const Contact = () => {
             <div className='py-10 mx-auto text-white h-auto flex items-center justify-center'>
                 <div className='flex sm:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto'>
 
-                    <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 1.5, delay: 2.3 }}>
+                    <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 1.5, delay: 1 }}>
                         <form action='https://getform.io/f/raeqddja' method='POST' className='flex flex-col gap-6 px-10 pt-10 pb-8 bg-black border-2 border-[#391ca3] rounded-xl'>
                             <h3 className='text-4xl primary-color'>Contact Me</h3>
                             <p className='text-white'>
@@ -47,7 +47,7 @@ const Contact = () => {
                         </form>
                     </motion.div>
 
-                    <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: 100, opacity: 0 }} transition={{ duration: 1.5, delay: 2.3 }}>
+                    <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: 100, opacity: 0 }} transition={{ duration: 1.5, delay: 1 }}>
                         <div className='p-2'>
                             <div className='my-2'>
                                 <ul className='flex flex-col gap-10'>
@@ -69,7 +69,7 @@ const Contact = () => {
                 </div>
 
             </div>
-            <motion.div whileInView={{ opacity: 1, y: 0 }} initial={{ y: 100, opacity: 0 }} transition={{ duration: 1.5, delay: 2.5 }} className='flex justify-center py-8'>
+            <motion.div whileInView={{ opacity: 1, y: 0 }} initial={{ y: 100, opacity: 0 }} transition={{ duration: 1.5, delay: 1.5 }} className='flex justify-center py-8'>
                 <p className='text-xl text-white font-semibold'>Thanks for visiting!</p>
             </motion.div>
         </div>

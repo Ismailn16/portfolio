@@ -36,11 +36,11 @@ const Education = () => {
                 <div className="flex flex-wrap">
                     <div className="w-full">
                         <div className="skill-bx wow zoomIn text-center">
-                            <motion.h3 whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: -50 }} transition={{ duration: 1.5, delay: 1.6 }} className="text-3xl font-semibold mb-4"><span className='primary-color'>Education</span></motion.h3>
-                            <motion.p whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: -50 }} transition={{ duration: 1.5, delay: 1.7 }} className="mb-8 text-white">
+                            <motion.h3 whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: -50 }} transition={{ duration: 1.5, delay: 1 }} className="text-3xl font-semibold mb-4"><span className='primary-color'>Education</span></motion.h3>
+                            <motion.p whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: -50 }} transition={{ duration: 1.5, delay: 1.2 }} className="mb-8 text-white">
                                 The following key modules have significantly contributed to my development during my studies at UWE Bristol.
                             </motion.p>
-                            <motion.div whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: -50 }} transition={{ duration: 1.5, delay: 1.8 }}>
+                            <motion.div whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: -50 }} transition={{ duration: 1.5, delay: 1.5 }}>
                                 <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                     <div className="item flex flex-col items-center text-center">
                                         <FaWrench className='text-white text-3xl' />

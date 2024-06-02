@@ -8,7 +8,7 @@ const About = () => {
             <div className='flex sm:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto'>
 
                 <div>
-                    <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 1.5, delay: 1.2 }} className='w-[400px] h-full'>
+                    <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 1.5, delay: 1 }} className='w-[400px] h-full'>
                         <img src={aboutImg}
                             alt=''
                             className='object-cover bg-gray-700 rounded-xl h-[300px] filter grayscale brightness-50'

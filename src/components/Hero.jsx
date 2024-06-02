@@ -1,7 +1,6 @@
 import React from 'react'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import { MdMail } from "react-icons/md";
-import { FiDownload } from "react-icons/fi";
 import { motion } from "framer-motion";
 
 
@@ -19,17 +18,6 @@ const Hero = () => {
                             <AiFillGithub />
                         </a>
                         <a href='mailto:example@abduln2003@outlook.com' className='rounded-full border-2 p-2 border-[#391ca3] hover:text-black hover:bg-[#391ca3]'><MdMail /></a>
-                    </div>
-                    <div className='flex justify-center xl:justify-start items-center mb-4'>
-                        <div className='relative inline-flex group'>
-                            <div className='absolute transition-all duration-100 opacity-70 -inset-px bg-gradient-to-r from-[#6015a1] via-[#1527c2] to-[#b419bd] 
-    rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200'>
-                            </div>
-                            <a href='/Abdul Noor Resume.pdf' download="Abdul Noor Resume.pdf" title='Download CV' role='button' className='w-[220px] h-[60px] relative inline-flex items-center justify-center px-8 py-4 text-lg
-    font-bold text-white transition-all duration-200 bg-primary-color rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-700'>
-                                Download CV <div className='px-2'><FiDownload className='text-2xl' /></div>
-                            </a>
-                        </div>
                     </div>
                 </div>
                 <div className='relative ml-0 xl:ml-12 mt-4 xl:mt-0 flex justify-center xl:justify-start'>
