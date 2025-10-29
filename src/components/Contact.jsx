@@ -1,15 +1,7 @@
-import React from 'react'
-import { FaPhoneAlt } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 import { motion } from 'framer-motion';
 
 const info = [
-    {
-        icon: <FaPhoneAlt />,
-        title: 'Phone:',
-        description: '+44 7383 475619'
-
-    },
     {
         icon: <MdMail />,
         title: 'Email:',
@@ -20,18 +12,17 @@ const info = [
 
 const Contact = () => {
     return (
-        <div id='Contact' className='pt-32'>
+        <div id='Contact' className='pt-12 md:pt-0.5'>
             <div className='py-10 mx-auto text-white h-auto flex items-center justify-center'>
-                <div className='flex sm:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto'>
+                <div className='flex sm:flex-row flex-col items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto'>
 
                     <motion.div animate={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -100 }} transition={{ duration: 1.5, delay: 1 }}>
-                        <form action='https://getform.io/f/raeqddja' method='POST' className='flex flex-col gap-6 px-10 pt-10 pb-8 bg-[#222222] border-2 border-[#0f7d2f] rounded-xl'>
+                        <form action='https://getform.io/f/ajjrgxwa' method='POST' className='flex flex-col gap-6 px-10 pt-10 pb-8 bg-[#222222] border-2 border-[#0f7d2f] rounded-xl'>
                             <h3 className='text-4xl primary-color'>Contact Me</h3>
                             <p className='text-white'>
-                                Let's connect on LinkedIn or send me an email
+                                Please contact me via this form or send me an email
                             </p>
                             <div className='grid grid-cols-1 gap-6'>
-                                <input className='flex h-[48px] rounded-md border border-white/10 focus:border-[#0f7d2f] font-light bg-[#1a1a1a] px-4 py-5 text-base placeholder: text-white/60 outline-none' name='full name' type='fullname' placeholder='Full Name'></input>
                                 <input className='flex h-[48px] rounded-md border border-white/10 focus:border-[#0f7d2f] font-light bg-[#1a1a1a] px-4 py-5 text-base placeholder: text-white/60 outline-none' name='emailaddress' type='email' placeholder='Email Address'></input>
                                 <textarea name='message'
                                     className='flex h-[150px] rounded-md border border-white/10 focus:border-[#0f7d2f] font-light bg-[#1a1a1a] px-4 py-5 text-base placeholder:text-white/60 outline-none'
@@ -39,7 +30,7 @@ const Contact = () => {
                                 ></textarea>
                             </div>
                             <div className='flex justify-center'>
-                                <button className='bg-primary-color rounded-sm p-2'>
+                                <button className='bg-primary-color hover:bg-[#2db84a] rounded-full px-6 py-2 transition-all duration-300 hover:scale-110'>
                                     Submit
                                 </button>
                             </div>
@@ -69,7 +60,8 @@ const Contact = () => {
                 </div>
 
             </div>
-            <motion.div whileInView={{ opacity: 1, y: 0 }} initial={{ y: 100, opacity: 0 }} transition={{ duration: 1.5, delay: 1.5 }} className='flex justify-center py-8'>
+            <motion.div whileInView={{ opacity: 1, y: 0 }} initial={{ y: 100, opacity: 0 }} transition={{ duration: 1.5, delay: 1.5 }} className='flex flex-col items-center pt-4 pb-8 gap-2'>
+                <p className='text-sm text-white/60'>© {new Date().getFullYear()} abdulsn.com. All rights reserved.</p>
                 <p className='text-xl text-white font-semibold'>Thanks for visiting!</p>
             </motion.div>
         </div>

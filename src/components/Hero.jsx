@@ -40,7 +40,7 @@ const TypingEffect = ({ text, speed = 100, delay = 0 }) => {
 
 const Hero = () => {
     return (
-        <div id='Home' className='flex flex-col xl:flex-row my-auto mx-auto h-auto pb-4 pt-28'>
+        <div id='Home' className='flex flex-col xl:flex-row my-auto mx-auto h-auto pb-2 md:pb-4 pt-20 md:pt-28'>
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.5, delay: 1, ease: "easeIn" }} className='flex flex-col xl:flex-row items-center justify-between mx-auto'>
                 <div className='text-center xl:text-left mx-auto'>
                     <h1 className='text-white text-4xl font-semibold max-w-[500px] my-10'>

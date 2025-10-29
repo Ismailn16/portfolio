@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
     return (
-        <div id='Projects' className='py-6 max-w-[1200px] mx-auto pt-32'>
+        <div id='Projects' className='pb-2 max-w-[1200px] mx-auto pt-12 md:pt-22'>
             <div className='mx-auto px-4 md:px-8'>
                 <div className='mb-4 flex items-center justify-between gap-8'>
                     <div className='flex flex-col gap-4'>
@@ -15,7 +15,7 @@ const Projects = () => {
                         </motion.p>
                     </div>
                 </div>
-                <div className='flex flex-col gap-6'>
+                <div className='flex flex-col gap-4'>
                     {/* Software Engineer at Tiffin and Co Caterers */}
                     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.5, delay: 1.2, ease: "easeIn" }} className='w-full'>
                         <div className='group bg-neutral-800 border border-neutral-700 rounded-xl p-6 hover:border-[#0f7d2f] hover:shadow-lg hover:shadow-[#0f7d2f]/20 transition-all duration-300'>
@@ -48,6 +48,20 @@ const Projects = () => {
                         </div>
                     </motion.div>
 
+                                        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.5, delay: 1.8, ease: "easeIn" }} className='w-full'>
+                        <div className='group bg-neutral-800 border border-neutral-700 rounded-xl p-6 hover:border-[#0f7d2f] hover:shadow-lg hover:shadow-[#0f7d2f]/20 transition-all duration-300'>
+                            <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between mb-3'>
+                                <h3 className='text-xl font-semibold text-white group-hover:text-[#0f7d2f] transition-colors'>Bachelor of Science in Software Engineering for Business</h3>
+                                <span className='text-sm text-neutral-400'>Sep '22 – Jul '25</span>
+                            </div>
+                            <p className='text-[#0f7d2f] font-medium mb-4'>University of the West of England, Bristol</p>
+                            <ul className='space-y-2 text-neutral-300'>
+                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Grade: Upper Second Class Honours (2:1)</li>
+                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Key Modules: Object-Oriented Systems Development I & II, Foundations of Computing, Design and Analysis of Data Structures and Algorithms, Software Development Project, Advanced Databases</li>
+                            </ul>
+                        </div>
+                    </motion.div>
+
                     {/* Programming Lead at UWE */}
                     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.5, delay: 1.6, ease: "easeIn" }} className='w-full'>
                         <div className='group bg-neutral-800 border border-neutral-700 rounded-xl p-6 hover:border-[#0f7d2f] hover:shadow-lg hover:shadow-[#0f7d2f]/20 transition-all duration-300'>
@@ -64,20 +78,6 @@ const Projects = () => {
                         </div>
                     </motion.div>
 
-                    {/* Education */}
-                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.5, delay: 1.8, ease: "easeIn" }} className='w-full'>
-                        <div className='group bg-neutral-800 border border-neutral-700 rounded-xl p-6 hover:border-[#0f7d2f] hover:shadow-lg hover:shadow-[#0f7d2f]/20 transition-all duration-300'>
-                            <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between mb-3'>
-                                <h3 className='text-xl font-semibold text-white group-hover:text-[#0f7d2f] transition-colors'>Bachelor of Science in Software Engineering for Business</h3>
-                                <span className='text-sm text-neutral-400'>Sep '22 – Jul '25</span>
-                            </div>
-                            <p className='text-[#0f7d2f] font-medium mb-4'>University of the West of England, Bristol</p>
-                            <ul className='space-y-2 text-neutral-300'>
-                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Grade: Upper Second Class Honours (2:1)</li>
-                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Key Modules: Object-Oriented Systems Development I & II, Foundations of Computing, Design and Analysis of Data Structures and Algorithms, Software Development Project, Advanced Databases</li>
-                            </ul>
-                        </div>
-                    </motion.div>
                 </div>
             </div>
         </div>

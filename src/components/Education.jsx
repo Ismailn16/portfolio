@@ -24,7 +24,7 @@ const Education = () => {
     };
 
     return (
-        <section className="education py-16 pt-32" id="Education">
+        <section className="education py-16 pt-18" id="Education">
             <div id='Education' className="container mx-auto">
                 <div className="flex flex-wrap">
                     <div className="w-full">
@@ -44,7 +44,7 @@ const Education = () => {
                                     itemClass="carousel-item"
                                 >
                                     {/* NotifX */}
-                                    <div className="item px-3">
+                                    <div className="item">
                                         <div className="group bg-neutral-800 border border-neutral-700 rounded-xl p-6 h-92 w-80 mx-auto">
                                             <div className="flex items-center justify-center mb-4">
                                                 <div className="text-center">
@@ -65,7 +65,7 @@ const Education = () => {
                                     </div>
                                     
                                     {/* t3th3rScan */}
-                                    <div className="item px-3">
+                                    <div className="item">
                                         <div className="group bg-neutral-800 border border-neutral-700 rounded-xl p-6 h-92 w-80 mx-auto">
                                             <div className="flex items-center justify-center mb-4">
                                                 <div className="text-center">
@@ -86,7 +86,7 @@ const Education = () => {
                                     </div>
                                     
                                     {/* Football Management System */}
-                                    <div className="item px-3">
+                                    <div className="item">
                                         <div className="group bg-neutral-800 border border-neutral-700 rounded-xl p-6 h-92 w-80 mx-auto">
                                             <div className="flex items-center justify-center mb-4">
                                                 <div className="text-center">
@@ -106,7 +106,7 @@ const Education = () => {
                                     </div>
                                     
                                     {/* AI-Powered Pantry Tracker */}
-                                    <div className="item px-3">
+                                    <div className="item">
                                         <div className="group bg-neutral-800 border border-neutral-700 rounded-xl p-6 h-92 w-80 mx-auto">
                                             <div className="flex items-center justify-center mb-4">
                                                 <div className="text-center">
