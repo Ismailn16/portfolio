@@ -1,87 +1,83 @@
-import React from 'react';
-import Email from '../assets/smartmockups_lwkyxx8z.png';
-import Accom from '../assets/smartmockups_lwkz2roq.png';
-import Twin from '../assets/smartmockups_lwkz4vc3.png';
-import Portfolio from '../assets/smartmockups_lwkyptmt.png';
 import { motion } from "framer-motion";
-
-
 
 
 const Projects = () => {
     return (
-        <div id='Projects' className='py-6 max-w-[1200px] mx-auto'>
+        <div id='Projects' className='py-6 max-w-[1200px] mx-auto pt-32'>
             <div className='mx-auto px-4 md:px-8'>
                 <div className='mb-4 flex items-center justify-between gap-8'>
                     <div className='flex flex-col gap-4'>
-                        <motion.h2 whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 1.5, delay: 1 }} className='mr-2 text-3xl lg:text-4xl primary-color'>
-                            My Projects
+                        <motion.h2 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.5, delay: 1, ease: "easeIn" }} className='mr-2 text-3xl lg:text-4xl primary-color'>
+                            My Experience
                         </motion.h2>
-                        <motion.p whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 1.5, delay: 1.2 }} className='mr-2 pb-4 text-white'>
-                            These are my latest projects.
+                        <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.5, delay: 1, ease: "easeIn" }} className='mr-2 pb-4 text-white'>
+                            Below is my experience which includes education and work!
                         </motion.p>
                     </div>
                 </div>
-                <div>
-                    <div className='mb-8 flex-wrap lg:justify-center flex sm:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto'>
-                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 1.5, delay: 1.5 }} className='w-full lg:w-1/4 '>
-                            <img src={Accom} alt='' className='mb-6 rounded' />
-                        </motion.div>
-                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: 100, opacity: 0 }} transition={{ duration: 1.5, delay: 1.5 }} className='w-full max-w-xl'>
-                            <h6 className='mb-2 font-semibold text-white'>UWE Accomodation System</h6>
-                            <p className='mb-4 text-neutral-400'>Created a university accomodation system that allows users to manage the rooms within UWE accomodation buildings based on their availability, cleaning status, etc.</p>
-                            <ul className='rounded pr-2 py-1 text-sm font-medium flex'>
-                                <li className='p-4 mr-2 rounded px-2 py-1 text-sm font-medium bg-neutral-900'><span>Java</span></li>
-                                <li className='p-4 mr-2 rounded px-2 py-1 text-sm font-medium bg-neutral-900'><span>JavaFX</span></li>
+                <div className='flex flex-col gap-6'>
+                    {/* Software Engineer at Tiffin and Co Caterers */}
+                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.5, delay: 1.2, ease: "easeIn" }} className='w-full'>
+                        <div className='group bg-neutral-800 border border-neutral-700 rounded-xl p-6 hover:border-[#0f7d2f] hover:shadow-lg hover:shadow-[#0f7d2f]/20 transition-all duration-300'>
+                            <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between mb-3'>
+                                <h3 className='text-xl font-semibold text-white group-hover:text-[#0f7d2f] transition-colors'>Software Engineer</h3>
+                                <span className='text-sm text-neutral-400'>Aug '25 – Present</span>
+                            </div>
+                            <p className='text-[#0f7d2f] font-medium mb-4'>Tiffin and Co Caterers</p>
+                            <ul className='space-y-2 text-neutral-300'>
+                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Launched full-stack catering platform with a Next.js website and native iOS admin application (Swift/SwiftUI), integrating a Supabase PostgreSQL database, and Stripe API payment processing and Resend API transactional email service</li>
+                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Implemented iOS order management application with Next.js API integration for real-time order tracking, comprehensive order and customer details display, and Resend email automation for order confirmations and custom cancellation notifications</li>
+                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Devised basket validation system ensuring complete category fulfillment with dynamic volume-based pricing, and integrated Stripe webhooks to automatically persist order details to Supabase upon payment completion</li>
                             </ul>
-                        </motion.div>
-                    </div>
-                    <div className='mb-8 flex sm:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto flex-wrap lg:justify-center'>
-                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 1.5, delay: 1.5 }} className='w-full lg:w-1/4 '>
-                            <img src={Email} alt='' className='mb-6 rounded' />
-                        </motion.div>
-                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: 100, opacity: 0 }} transition={{ duration: 1.5, delay: 1.5 }} className='w-full max-w-xl'>
-                            <h6 className='mb-2 font-semibold text-white'>UWE ITS Help Service</h6>
-                            <p className='mb-4 text-neutral-400'>Built a Help Service comprised of two webpages, one as a email automation service utilising a SendGrid Mail API and the other as a FAQ/Q&A page. The goal in creating this was to reduce email traffic for UWE ITS and improve students means of self-service</p>
-                            <ul className='rounded pr-2 py-1 text-sm font-medium flex'>
-                                <li className='p-4 mr-2 rounded px-2 py-1 text-sm font-medium bg-neutral-900'><span>HTML</span></li>
-                                <li className='p-4 mr-2 rounded px-2 py-1 text-sm font-medium bg-neutral-900'><span>Tailwind</span></li>
-                                <li className='p-4 mr-2 rounded px-2 py-1 text-sm font-medium bg-neutral-900'><span>JS</span></li>
-                                <li className='p-4 mr-2 rounded px-2 py-1 text-sm font-medium bg-neutral-900'><span>Python</span></li>
-                                <li className='p-4 mr-2 rounded px-2 py-1 text-sm font-medium bg-neutral-900'><span>MySQL</span></li>
+                        </div>
+                    </motion.div>
+
+                    {/* Software Engineer at SW Tyre Guys */}
+                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.5, delay: 1.4, ease: "easeIn" }} className='w-full'>
+                        <div className='group bg-neutral-800 border border-neutral-700 rounded-xl p-6 hover:border-[#0f7d2f] hover:shadow-lg hover:shadow-[#0f7d2f]/20 transition-all duration-300'>
+                            <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between mb-3'>
+                                <h3 className='text-xl font-semibold text-white group-hover:text-[#0f7d2f] transition-colors'>Software Engineer</h3>
+                                <span className='text-sm text-neutral-400'>Jun '25 – Present</span>
+                            </div>
+                            <p className='text-[#0f7d2f] font-medium mb-4'>SW Tyre Guys</p>
+                            <ul className='space-y-2 text-neutral-300'>
+                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Delivered a full-stack mobile tyre business system using SwiftUI, Express.js, Supabase, Stripe API, and Twilio API with automated payment processing, SMS payment links, and webhook-driven updates</li>
+                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Built a responsive dashboard with state-driven UI logic managing orders, payments, inventory tracking, and price adjustments</li>
+                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Streamlined customer experience through automated Stripe invoicing and Twilio SMS notifications, eliminating manual follow-ups and improving response times</li>
                             </ul>
-                        </motion.div>
-                    </div>
-                    <div className='mb-8 flex sm:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto flex-wrap lg:justify-center'>
-                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 1.5, delay: 1.5 }} className='w-full lg:w-1/4 '>
-                            <img src={Portfolio} alt='' className='mb-6 rounded' />
-                        </motion.div>
-                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: 100, opacity: 0 }} transition={{ duration: 1.5, delay: 1.5 }} className='w-full max-w-xl'>
-                            <h6 className='mb-2 font-semibold text-white'>Portfolio Website</h6>
-                            <p className='mb-4 text-neutral-400'>Created a Portfolio page as a means to interactively display my experience and education to potential employers.</p>
-                            <ul className='rounded pr-2 py-1 text-sm font-medium flex'>
-                                <li className='p-4 mr-2 rounded px-2 py-1 text-sm font-medium bg-neutral-900'><span>HTML</span></li>
-                                <li className='p-4 mr-2 rounded px-2 py-1 text-sm font-medium bg-neutral-900'><span>Tailwind</span></li>
-                                <li className='p-4 mr-2 rounded px-2 py-1 text-sm font-medium bg-neutral-900'><span>React.js</span></li>
+                        </div>
+                    </motion.div>
+
+                    {/* Programming Lead at UWE */}
+                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.5, delay: 1.6, ease: "easeIn" }} className='w-full'>
+                        <div className='group bg-neutral-800 border border-neutral-700 rounded-xl p-6 hover:border-[#0f7d2f] hover:shadow-lg hover:shadow-[#0f7d2f]/20 transition-all duration-300'>
+                            <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between mb-3'>
+                                <h3 className='text-xl font-semibold text-white group-hover:text-[#0f7d2f] transition-colors'>Programming Lead</h3>
+                                <span className='text-sm text-neutral-400'>Jan '24 – Apr '24</span>
+                            </div>
+                            <p className='text-[#0f7d2f] font-medium mb-4'>University of the West of England, Bristol</p>
+                            <ul className='space-y-2 text-neutral-300'>
+                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Led a development team for a UWE ITS initiative aiming to reduce email traffic and system congestion, achieving a 19% reduction in email ticket creation</li>
+                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Designed a support system including a issue reporting webpage with email automation, and a FAQ/Q&A webpage using HTML/Tailwind CSS/JavaScript, Flask, SendGrid API, and a MySQL database</li>
+                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Applied Agile methodology, conducting weekly stakeholder reviews and frequently collaborating with UWE ITS leadership to ensure requirements alignment and deliver a solution that exceeded project objectives</li>
                             </ul>
-                        </motion.div>
-                    </div>
-                    <div className='mb-8 flex sm:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto flex-wrap lg:justify-center'>
-                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 1.5, delay: 1.5 }} className='w-full lg:w-1/4'>
-                            <img src={Twin} alt='' className='mb-6 rounded' />
-                        </motion.div>
-                        <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: 100, opacity: 0 }} transition={{ duration: 1.5, delay: 1.5 }} className='w-full max-w-xl '>
-                            <h6 className='mb-2 font-semibold text-white'>Twin Cities Web Application</h6>
-                            <p className='mb-4 text-neutral-400'>Collaboratively developed a Twin Cities web app providing information on London and Paris. Utilised APIs for weather forecasts, Google Maps for points of interest, and an RSS feed for daily local news updates.</p>
-                            <ul className='rounded pr-2 py-1 text-sm font-medium flex'>
-                                <li className='p-4 mr-2 rounded px-2 py-1 text-sm font-medium bg-neutral-900'><span>HTML</span></li>
-                                <li className='p-4 mr-2 rounded px-2 py-1 text-sm font-medium bg-neutral-900'><span>Tailwind</span></li>
-                                <li className='p-4 mr-2 rounded px-2 py-1 text-sm font-medium bg-neutral-900'><span>JS</span></li>
-                                <li className='p-4 mr-2 rounded px-2 py-1 text-sm font-medium bg-neutral-900'><span>PHP</span></li>
-                                <li className='p-4 mr-2 rounded px-2 py-1 text-sm font-medium bg-neutral-900'><span>SQL</span></li>
+                        </div>
+                    </motion.div>
+
+                    {/* Education */}
+                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.5, delay: 1.8, ease: "easeIn" }} className='w-full'>
+                        <div className='group bg-neutral-800 border border-neutral-700 rounded-xl p-6 hover:border-[#0f7d2f] hover:shadow-lg hover:shadow-[#0f7d2f]/20 transition-all duration-300'>
+                            <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between mb-3'>
+                                <h3 className='text-xl font-semibold text-white group-hover:text-[#0f7d2f] transition-colors'>Bachelor of Science in Software Engineering for Business</h3>
+                                <span className='text-sm text-neutral-400'>Sep '22 – Jul '25</span>
+                            </div>
+                            <p className='text-[#0f7d2f] font-medium mb-4'>University of the West of England, Bristol</p>
+                            <ul className='space-y-2 text-neutral-300'>
+                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Grade: Upper Second Class Honours (2:1)</li>
+                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Key Modules: Object-Oriented Systems Development I & II, Foundations of Computing, Design and Analysis of Data Structures and Algorithms, Software Development Project, Advanced Databases</li>
                             </ul>
-                        </motion.div>
-                    </div>
+                        </div>
+                    </motion.div>
                 </div>
             </div>
         </div>
