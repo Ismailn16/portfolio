@@ -60,7 +60,7 @@ const Contact = () => {
                 </div>
 
             </div>
-            <motion.div whileInView={{ opacity: 1, y: 0 }} initial={{ y: 100, opacity: 0 }} transition={{ duration: 1.5, delay: 1.5 }} className='flex flex-col items-center pt-4 pb-8 gap-2'>
+            <motion.div animate={{y: 0, opacity: 1}} initial={{ y: -100, opacity: 0 }} transition={{ duration: 1, delay: 0.5 }} className='flex flex-col items-center pt-4 pb-8 gap-2'>
                 <p className='text-sm text-white/60'>© {new Date().getFullYear()} abdulsn.com. All rights reserved.</p>
                 <p className='text-xl text-white font-semibold'>Thanks for visiting!</p>
             </motion.div>
