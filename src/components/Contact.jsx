@@ -23,10 +23,11 @@ const Contact = () => {
                                 Please contact me via this form or send me an email
                             </p>
                             <div className='grid grid-cols-1 gap-6'>
-                                <input className='flex h-[48px] rounded-md border border-white/10 focus:border-[#0f7d2f] font-light bg-[#1a1a1a] px-4 py-5 text-base placeholder: text-white/60 outline-none' name='emailaddress' type='email' placeholder='Email Address'></input>
+                                <input className='flex h-[48px] rounded-md border border-white/10 focus:border-[#0f7d2f] font-light bg-[#1a1a1a] px-4 py-5 text-base placeholder: text-white/60 outline-none' name='emailaddress' type='email' placeholder='Email Address' required></input>
                                 <textarea name='message'
                                     className='flex h-[150px] rounded-md border border-white/10 focus:border-[#0f7d2f] font-light bg-[#1a1a1a] px-4 py-5 text-base placeholder:text-white/60 outline-none'
                                     placeholder='Your Message'
+                                    required
                                 ></textarea>
                             </div>
                             <div className='flex justify-center'>
