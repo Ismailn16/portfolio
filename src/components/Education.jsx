@@ -52,12 +52,12 @@ const Education = () => {
                                                     <p className="text-sm text-neutral-400">Jul '25 – Present</p>
                                                 </div>
                                             </div>
-                                            <p className='text-sm text-neutral-300 mb-4'>Developing a notifications app for forex traders to prevent losses caused by missed news. Building AWS Lambda functions with Puppeteer for automated forex news scraping and data processing, storing structured daily files in S3 with CloudFront CDN caching. Implementing Redis queue system for real-time notifications</p>
+                                            <p className='text-sm text-neutral-300 mb-4'>Developed a notification app to help traders receive timely alerts for economic events. Built serverless pipeline with EC2 scraper, S3, CloudFront CDN, Lambda, DynamoDB, and Redis. Implemented EventBridge workers and DynamoDB Streams for automatic notification rescheduling on preference changes.</p>
                                             <div className="flex flex-wrap gap-2 justify-center">
                                                 <button className="px-2 py-1 bg-[#0f7d2f] hover:bg-[#2db84a] text-xs text-white rounded transition-colors duration-200 cursor-pointer">React Native</button>
                                                 <button className="px-2 py-1 bg-[#0f7d2f] hover:bg-[#2db84a] text-xs text-white rounded transition-colors duration-200 cursor-pointer">AWS Lambda</button>
                                                 <button className="px-2 py-1 bg-[#0f7d2f] hover:bg-[#2db84a] text-xs text-white rounded transition-colors duration-200 cursor-pointer">CloudFront</button>           
-                                                <button className="px-2 py-1 bg-[#0f7d2f] hover:bg-[#2db84a] text-xs text-white rounded transition-colors duration-200 cursor-pointer">API Gateway</button>                                                                                     
+                                                <button className="px-2 py-1 bg-[#0f7d2f] hover:bg-[#2db84a] text-xs text-white rounded transition-colors duration-200 cursor-pointer">EC2</button>                                                                                     
                                                 <button className="px-2 py-1 bg-[#0f7d2f] hover:bg-[#2db84a] text-xs text-white rounded transition-colors duration-200 cursor-pointer">S3</button>
                                                 <button className="px-2 py-1 bg-[#0f7d2f] hover:bg-[#2db84a] text-xs text-white rounded transition-colors duration-200 cursor-pointer">DynamoDB</button>
                                                 <button className="px-2 py-1 bg-[#0f7d2f] hover:bg-[#2db84a] text-xs text-white rounded transition-colors duration-200 cursor-pointer">Redis</button>
