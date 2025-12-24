@@ -44,10 +44,10 @@ const Hero = () => {
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.5, delay: 1, ease: "easeIn" }} className='flex flex-col xl:flex-row items-center justify-between mx-auto'>
                 <div className='text-center xl:text-left mx-auto'>
                     <h1 className='text-white text-4xl font-semibold max-w-[500px] my-10'>
-                        Hi, my name is Abdul Noor!
+                        Hi, my name is Ismail Noor!
                     </h1>
                     <div className='text-4xl flex justify-center xl:justify-start text-center gap-12 my-8 text-[#0f7d2f]'>
-                        <a href='https://www.linkedin.com/in/abdul-noor-5349372a5/' className='rounded-full border-2 p-2 border-[#0f7d2f] hover:text-black hover:bg-[#0f7d2f]'><AiFillLinkedin /></a>
+                        <a href='https://www.linkedin.com/in/ismail-noor1/' className='rounded-full border-2 p-2 border-[#0f7d2f] hover:text-black hover:bg-[#0f7d2f]'><AiFillLinkedin /></a>
                         <a href='https://github.com/Ismailn16' className='rounded-full p-2 border-2 border-[#0f7d2f] hover:text-black hover:bg-[#0f7d2f]'>
                             <AiFillGithub />
                         </a>
