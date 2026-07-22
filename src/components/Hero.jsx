@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
-import { MdMail } from "react-icons/md";
+import IconTransparent from '../assets/icon_transparent.png'
 import { motion } from "framer-motion";
 
 const TypingEffect = ({ text, speed = 100, delay = 0 }) => {
@@ -47,11 +47,16 @@ const Hero = () => {
                         Hi, my name is Abdul Noor!
                     </h1>
                     <div className='text-4xl flex justify-center xl:justify-start text-center gap-12 my-8 text-[#0f7d2f]'>
-                        <a href='https://www.linkedin.com/in/abdul-s-noor/' className='rounded-full border-2 p-2 border-[#0f7d2f] hover:text-black hover:bg-[#0f7d2f]'><AiFillLinkedin /></a>
-                        <a href='https://github.com/Ismailn16' className='rounded-full p-2 border-2 border-[#0f7d2f] hover:text-black hover:bg-[#0f7d2f]'>
+                        <a href='https://www.linkedin.com/in/abdul-s-noor/' className='rounded-full border-2 p-2 border-[#0f7d2f] hover:scale-110 transition-transform duration-200'>
+                            <AiFillLinkedin />
+                        </a>
+                        <a href='https://github.com/Ismailn16' className='rounded-full p-2 border-2 border-[#0f7d2f] hover:scale-110 transition-transform duration-200'>
                             <AiFillGithub />
                         </a>
-                        <a href='mailto:example@abduln2003@outlook.com' className='rounded-full border-2 p-2 border-[#0f7d2f] hover:text-black hover:bg-[#0f7d2f]'><MdMail /></a>
+                        <a href='https://notifx.app' target='_blank' rel='noopener noreferrer' className='rounded-full border-2 px-4 py-2 border-[#0f7d2f] flex items-center gap-2 text-base hover:scale-110 transition-transform duration-200'>
+                            <img src={IconTransparent} alt='NotifX' className='w-10 h-10 object-contain' />
+                            <span className='text-md font-semibold'>Check out NotifX</span>
+                        </a>
                     </div>
                 </div>
                 <div className='relative ml-0 xl:ml-12 mt-4 xl:mt-0 flex justify-center xl:justify-start'>

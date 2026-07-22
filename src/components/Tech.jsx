@@ -2,8 +2,7 @@ import React from 'react'
 import { RiTailwindCssFill } from "react-icons/ri";
 import PythonLogo from "../assets/PythonLogo.jsx";
 import JavaLogo from "../assets/JavaLogo.jsx";
-import HTMLlogo from "../assets/HTMLlogo.jsx";
-import CSSlogo from "../assets/CSSlogo.jsx";
+import AWSLogo from "../assets/icons8-amazon-web-services.svg";
 import { motion } from 'framer-motion';
 
 // Import SVG files
@@ -15,6 +14,8 @@ import PostgreSQLIcon from "../assets/postgresql-logo-svgrepo-com.svg";
 import ReactIcon from "../assets/react-svgrepo-com.svg";
 import SwiftIcon from "../assets/swift-svgrepo-com.svg";
 import NextIcon from '../assets/next2.svg'
+import TSIcon from '../assets/typescript-icon.svg'
+
 
 const iconVariants = (duration) => ({
     initial: { y: -10 },
@@ -56,16 +57,17 @@ const Tech = () => {
                                         <motion.div variants={iconVariants(3.8)} initial='initial' animate='animate' className="rounded-2xl border-4 border-neutral-700 p-4">
                         <img src={PostgreSQLIcon} alt="PostgreSQL" className="w-12 h-12" />
                     </motion.div>
+                    <motion.div variants={iconVariants(3.8)} initial='initial' animate='animate' className="rounded-2xl border-4 border-neutral-700 p-4">
+                        <img src={TSIcon} alt="TypeScript" className="w-12 h-12" />
+                    </motion.div>
                 </div>
 
                 {/* Second Row - 7 icons */}
                 <div className='flex flex-wrap items-center justify-center gap-4'>
-                    <motion.div variants={iconVariants(2)} initial='initial' animate='animate' className="rounded-2xl border-4 border-neutral-700 p-4">
-                        <HTMLlogo />
+                    <motion.div variants={iconVariants(3.8)} initial='initial' animate='animate' className="rounded-2xl border-4 border-neutral-700 p-4">
+                        <img src={AWSLogo} alt="TypeScript" className="w-12 h-12" />
                     </motion.div>
-                                        <motion.div variants={iconVariants(6)} initial='initial' animate='animate' className="rounded-2xl border-4 border-neutral-700 p-4">
-                        <CSSlogo />
-                    </motion.div>
+                                        
                                         <motion.div variants={iconVariants(4)} initial='initial' animate='animate' className='rounded-2xl border-4 border-neutral-700 p-4'>
                         <RiTailwindCssFill className='text-5xl text-[#2596be]' />
                     </motion.div>

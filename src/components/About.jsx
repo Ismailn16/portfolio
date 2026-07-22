@@ -9,13 +9,13 @@ const About = () => {
                     <h3 className='text-3xl font-semibold mb-8'><span className='primary-color'>About Me!</span></h3>
                     <div className='space-y-6 text-base md:text-lg leading-relaxed'>
                         <p className='text-white/90'>
-                            Hi, I'm Abdul Noor, also known as Ismail! I'm a Software Engineering graduate from UWE Bristol with a passion for Financial Technology and Web3. My academic journey culminated in a dissertation exploring the intersection of blockchain technology and modern online banking, which sparked my fascination with innovative finance solutions.
+                            Hi, I'm Abdul Noor, also known as Ismail! I'm a Software Engineering graduate from UWE Bristol with a passion for Financial Technology and an interest in Web3. My dissertation explored the intersection of blockchain technology and modern online banking, which sparked a broader curiosity in how emerging technologies can reshape finance, from smart contracts to decentralised systems.
                         </p>
                         <p className='text-white/90'>
-                            Currently working in telecommunications sales, I love all things tech and am particularly drawn to the intersection of finance and blockchain technology. My interest extends beyond traditional banking applications, exploring how concepts like smart contracts and decentralised storage systems such as IPFS can be applied across different areas of finance.
+                            Most recently I built and shipped NotifX, a live App Store app helping traders stay ahead of market-moving economic events. I designed and built the entire backend infrastructure from the ground up, engineering a smart notification system that adapts in real time to user preferences and delivers alerts reliably at exactly the right moment.
                             </p>
                         <p className='text-white/90'>
-                            I'm enthusiastic about connecting with like-minded individuals who share a passion for fintech innovation and technology. Feel free to get in touch via LinkedIn or email!
+                            Outside of fintech, I love all things tech and am always exploring new ideas. I'm keen to connect with like-minded people passionate about technology and innovation, feel free to reach out via LinkedIn or email!
                         </p>
                     </div>
                 </motion.div>

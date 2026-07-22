@@ -21,11 +21,11 @@ const Projects = () => {
                         <div className='group bg-neutral-800 border border-neutral-700 rounded-xl p-6 hover:border-[#0f7d2f] hover:shadow-lg hover:shadow-[#0f7d2f]/20 transition-all duration-300'>
                             <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between mb-3'>
                                 <h3 className='text-xl font-semibold text-white group-hover:text-[#0f7d2f] transition-colors'>Software Engineer</h3>
-                                <span className='text-sm text-neutral-400'>Aug '25 – Present</span>
+                                <span className='text-sm text-neutral-400'>Aug '25 – Apr '26</span>
                             </div>
                             <p className='text-[#0f7d2f] font-medium mb-4'>Tiffin and Co Caterers</p>
                             <ul className='space-y-2 text-neutral-300'>
-                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Launched full-stack catering platform with a Next.js website and native iOS admin application (Swift/SwiftUI), integrating a Supabase PostgreSQL database, and Stripe API payment processing and Resend API transactional email service</li>
+                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Launched a full-stack catering platform with a Next.js customer-facing website and native Swift admin application, integrating Supabase PostgreSQL, Stripe payment processing, and Resend transactional email automation</li>
                                 <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Implemented iOS order management application with Next.js API integration for real-time order tracking, comprehensive order and customer details display, and Resend email automation for order confirmations and custom cancellation notifications</li>
                                 <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Devised basket validation system ensuring complete category fulfillment with dynamic volume-based pricing, and integrated Stripe webhooks to automatically persist order details to Supabase upon payment completion</li>
                             </ul>
@@ -37,7 +37,7 @@ const Projects = () => {
                         <div className='group bg-neutral-800 border border-neutral-700 rounded-xl p-6 hover:border-[#0f7d2f] hover:shadow-lg hover:shadow-[#0f7d2f]/20 transition-all duration-300'>
                             <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between mb-3'>
                                 <h3 className='text-xl font-semibold text-white group-hover:text-[#0f7d2f] transition-colors'>Software Engineer</h3>
-                                <span className='text-sm text-neutral-400'>Jun '25 – Present</span>
+                                <span className='text-sm text-neutral-400'>Jun '25 – Dec '25</span>
                             </div>
                             <p className='text-[#0f7d2f] font-medium mb-4'>SW Tyre Guys</p>
                             <ul className='space-y-2 text-neutral-300'>

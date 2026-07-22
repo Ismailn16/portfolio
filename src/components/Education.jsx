@@ -49,10 +49,10 @@ const Education = () => {
                                             <div className="flex items-center justify-center mb-4">
                                                 <div className="text-center">
                                                     <h5 className="text-lg font-semibold text-white">NotifX</h5>
-                                                    <p className="text-sm text-neutral-400">Jul '25 – Dec '25</p>
+                                                    <p className="text-sm text-neutral-400">Jul '25 – Jul '26</p>
                                                 </div>
                                             </div>
-                                            <p className='text-sm text-neutral-300 mb-4'>Developed a notification app to help traders receive timely alerts for economic events. Built serverless pipeline with EC2 scraper, S3, CloudFront CDN, Lambda, DynamoDB, and Redis. Implemented EventBridge workers and DynamoDB Streams for automatic notification rescheduling on preference changes.</p>
+                                            <p className='text-sm text-neutral-300 mb-4'>Developed a mobile app to help traders receive timely alerts for economic events. Built serverless pipeline with EC2 scraper, S3, CloudFront CDN, Lambda, DynamoDB, and Redis. Implemented EventBridge workers and DynamoDB Streams for automatic notification rescheduling on preference changes.</p>
                                             <div className="flex flex-wrap gap-2 justify-center">
                                                 <button className="px-2 py-1 bg-[#0f7d2f] hover:bg-[#2db84a] text-xs text-white rounded transition-colors duration-200 cursor-pointer">React Native</button>
                                                 <button className="px-2 py-1 bg-[#0f7d2f] hover:bg-[#2db84a] text-xs text-white rounded transition-colors duration-200 cursor-pointer">AWS Lambda</button>
