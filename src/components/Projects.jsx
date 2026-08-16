@@ -21,7 +21,7 @@ const Projects = () => {
                         <div className='group bg-neutral-800 border border-neutral-700 rounded-xl p-6 hover:border-[#0f7d2f] hover:shadow-lg hover:shadow-[#0f7d2f]/20 transition-all duration-300'>
                             <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between mb-3'>
                                 <h3 className='text-xl font-semibold text-white group-hover:text-[#0f7d2f] transition-colors'>Software Engineer</h3>
-                                <span className='text-sm text-neutral-400'>Aug '25 – Apr '26</span>
+                                <span className='text-sm text-neutral-400'>Aug '25 – Present</span>
                             </div>
                             <p className='text-[#0f7d2f] font-medium mb-4'>Tiffin and Co Caterers</p>
                             <ul className='space-y-2 text-neutral-300'>
@@ -37,7 +37,7 @@ const Projects = () => {
                         <div className='group bg-neutral-800 border border-neutral-700 rounded-xl p-6 hover:border-[#0f7d2f] hover:shadow-lg hover:shadow-[#0f7d2f]/20 transition-all duration-300'>
                             <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between mb-3'>
                                 <h3 className='text-xl font-semibold text-white group-hover:text-[#0f7d2f] transition-colors'>Software Engineer</h3>
-                                <span className='text-sm text-neutral-400'>Jun '25 – Dec '25</span>
+                                <span className='text-sm text-neutral-400'>Jun '25 – Feb '26</span>
                             </div>
                             <p className='text-[#0f7d2f] font-medium mb-4'>SW Tyre Guys</p>
                             <ul className='space-y-2 text-neutral-300'>
