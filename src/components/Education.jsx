@@ -49,7 +49,6 @@ const Education = () => {
                                             <div className="flex items-center justify-center mb-4">
                                                 <div className="text-center">
                                                     <h5 className="text-lg font-semibold text-white">NotifX</h5>
-                                                    <p className="text-sm text-neutral-400">Jul '25 – Jul '26</p>
                                                 </div>
                                             </div>
                                             <p className='text-sm text-neutral-300 mb-4'>Developed a mobile app to help traders receive timely alerts for economic events. Built serverless pipeline with EC2 scraper, S3, CloudFront CDN, Lambda, DynamoDB, and Redis. Implemented EventBridge workers and DynamoDB Streams for automatic notification rescheduling on preference changes.</p>
@@ -71,7 +70,6 @@ const Education = () => {
                                             <div className="flex items-center justify-center mb-4">
                                                 <div className="text-center">
                                                     <h5 className="text-lg font-semibold text-white">t3th3rScan</h5>
-                                                    <p className="text-sm text-neutral-400">Dec '24 – May '25</p>
                                                 </div>
                                             </div>
                                             <p className='text-sm text-neutral-300 mb-4'>Created a mobile app for young adults exploring crypto, abstracting complex blockchain interactions with an intuitive banking-like interface while avoiding volatility through stablecoin adoption. Incorporated thirdweb SDK and Ethers.js for peer-to-peer USDT transfers over Polygon PoS with ≈$0.01 POL gas fees.</p>
@@ -92,7 +90,6 @@ const Education = () => {
                                             <div className="flex items-center justify-center mb-4">
                                                 <div className="text-center">
                                                     <h5 className="text-lg font-semibold text-white">Football Management System</h5>
-                                                    <p className="text-sm text-neutral-400">Jul '24 – Aug '24</p>
                                                 </div>
                                             </div>
                                             <p className='text-sm text-neutral-300 mb-4'>Produced a football booking management system using Java and JavaFX, integrating Square APIs and Twilio SMS API for automated payment links. Integrated PostgreSQL database to manage bookings and player information. Reduced average payment collection time by 25% through streamlined automation.</p>
@@ -112,7 +109,6 @@ const Education = () => {
                                             <div className="flex items-center justify-center mb-4">
                                                 <div className="text-center">
                                                     <h5 className="text-lg font-semibold text-white">AI-Powered Pantry Tracker</h5>
-                                                    <p className="text-sm text-neutral-400">Aug '24 – Sep '24</p>
                                                 </div>
                                             </div>
                                             <p className='text-sm text-neutral-300 mb-4'>AI-powered pantry tracker built using Next.js, Material-UI, Firebase, and OpenAI API that enables users to record items stored in their pantry and generate personalised recipes using their available ingredients. Helps manage pantry inventory and minimise food waste by suggesting meals based on what you already have.</p>
