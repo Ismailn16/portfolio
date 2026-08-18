@@ -47,16 +47,20 @@ const Hero = () => {
                         Hi, my name is Abdul Noor!
                     </h1>
                     <div className='text-4xl flex justify-center xl:justify-start text-center gap-12 my-8 text-[#0f7d2f]'>
-                        <a href='https://www.linkedin.com/in/abdul-s-noor/' className='rounded-full border-2 p-2 border-[#0f7d2f] hover:scale-110 transition-transform duration-200'>
-                            <AiFillLinkedin />
-                        </a>
-                        <a href='https://github.com/Ismailn16' className='rounded-full p-2 border-2 border-[#0f7d2f] hover:scale-110 transition-transform duration-200'>
-                            <AiFillGithub />
-                        </a>
-                        <a href='https://notifx.app' target='_blank' rel='noopener noreferrer' className='rounded-full border-2 px-4 py-2 border-[#0f7d2f] flex items-center gap-2 text-base hover:scale-110 transition-transform duration-200'>
-                            <img src={IconTransparent} alt='NotifX' className='w-10 h-10 object-contain' />
-                            <span className='text-md font-semibold'>Check out NotifX</span>
-                        </a>
+                          <a href='https://www.linkedin.com/in/abdul-s-noor/' className='rounded-full border-2 p-2 border-[#0f7d2f] hover:scale-110 transition-transform duration-200 flex items-center justify-center w-14 h-14'>
+    <AiFillLinkedin />
+  </a>
+  <a href='https://github.com/Ismailn16' className='rounded-full p-2 border-2 border-[#0f7d2f] hover:scale-110 transition-transform duration-200 flex items-center justify-center w-14 h-14'>
+    <AiFillGithub />
+  </a>
+                        <a href='https://notifx.app'
+  target='_blank'
+  rel='noopener noreferrer'
+  className='rounded-full border-2 px-3 py-1.5 sm:px-4 sm:py-2 border-[#0f7d2f] flex items-center gap-1.5 sm:gap-2 text-base hover:scale-110 transition-transform duration-200'
+>
+  <img src={IconTransparent} alt='NotifX' className='w-6 h-6 sm:w-10 sm:h-10 object-contain' />
+  <span className='text-xs sm:text-md font-semibold'>Check out NotifX</span>
+</a>
                     </div>
                 </div>
                 <div className='relative ml-0 xl:ml-12 mt-4 xl:mt-0 flex justify-center xl:justify-start'>

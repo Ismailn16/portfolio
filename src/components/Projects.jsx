@@ -25,9 +25,8 @@ const Projects = () => {
                             </div>
                             <p className='text-[#0f7d2f] font-medium mb-4'>Tiffin and Co Caterers</p>
                             <ul className='space-y-2 text-neutral-300'>
-                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Launched a full-stack catering platform with a Next.js customer-facing website and native Swift admin application, integrating Supabase PostgreSQL, Stripe payment processing, and Resend transactional email automation</li>
-                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Implemented iOS order management application with Next.js API integration for real-time order tracking, comprehensive order and customer details display, and Resend email automation for order confirmations and custom cancellation notifications</li>
-                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Devised basket validation system ensuring complete category fulfillment with dynamic volume-based pricing, and integrated Stripe webhooks to automatically persist order details to Supabase upon payment completion</li>
+                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Engineered and launched a full-stack catering platform (Next.js, Supabase, Stripe, Resend) that fully replaced a phone order and spreadsheet-based workflow, reducing time spent manually recording and relaying incoming orders by ≈80%</li>
+                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Built a companion Swift admin application enabling team members to manage the full order lifecycle from one interface, replacing manual email contact entirely through automated personalised customer emails, saving an average of 7 hours of admin per week</li>
                             </ul>
                         </div>
                     </motion.div>
@@ -41,9 +40,8 @@ const Projects = () => {
                             </div>
                             <p className='text-[#0f7d2f] font-medium mb-4'>SW Tyre Guys</p>
                             <ul className='space-y-2 text-neutral-300'>
-                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Delivered a full-stack mobile tyre business system using SwiftUI, Express.js, Supabase, Stripe API, and Twilio API with automated payment processing, SMS payment links, and webhook-driven updates</li>
-                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Built a responsive dashboard with state-driven UI logic managing orders, payments, inventory tracking, and price adjustments</li>
-                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Streamlined customer experience through automated Stripe invoicing and Twilio SMS notifications, eliminating manual follow-ups and improving response times</li>
+                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Architected and deployed a full-stack mobile tyre business system (SwiftUI, Express.js, Supabase, Stripe, Twilio), introducing automated push notifications to alert drivers of incoming jobs, cutting manual contact for every order and reducing operator intervention to just 1-2 check-in calls per day</li>
+                                <li className='flex items-start'><span className='mr-2 text-[#0f7d2f]'>•</span> Replaced a shared Apple Notes stock system prone to corruption and inaccurate counts with a reservation-based inventory system, automatically withholding stock upon order creation and only deducting it upon fulfilment, reducing stock count discrepancies and double-booking by ≈95%</li>
                             </ul>
                         </div>
                     </motion.div>
